@@ -1,0 +1,40 @@
+<form id="form1" runat="server">
+                                <div>
+                                    <table><tr>
+                            <td>InvoiceNumber:</td>
+                            <td><asp:TextBox ID="txtInvoiceNumber" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>InvoiceType:</td>
+                            <td><asp:TextBox ID="txtInvoiceType" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>OrderID:</td>
+                            <td><asp:TextBox ID="txtOrderID" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>Refference:</td>
+                            <td><asp:TextBox ID="txtRefference" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>PayType:</td>
+                            <td><asp:TextBox ID="txtPayType" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>ChequeNumber:</td>
+                            <td><asp:TextBox ID="txtChequeNumber" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>TotalAmount:</td>
+                            <td><asp:TextBox ID="txtTotalAmount" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>OrderAmount:</td>
+                            <td><asp:TextBox ID="txtOrderAmount" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>InvoiceDate:</td>
+                            <td><asp:TextBox ID="txtInvoiceDate" runat="server"></asp:TextBox></td>
+                            </tr> <tr>
+                                    <td></td>
+                                    <td>
+                                        <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" /></td>
+                                </tr></table>
+                                </div><div>
+            <asp:GridView ID="gvInvoices" runat="server" AutoGenerateColumns="false" DataKeyNames="InvoiceID">
+                <Columns><asp:BoundField DataField="InvoiceID" HeaderText="InvoiceID" ItemStyle-Width="100" /><asp:BoundField DataField="InvoiceNumber" HeaderText="InvoiceNumber" ItemStyle-Width="100" /><asp:BoundField DataField="InvoiceType" HeaderText="InvoiceType" ItemStyle-Width="100" /><asp:BoundField DataField="OrderID" HeaderText="OrderID" ItemStyle-Width="100" /><asp:BoundField DataField="Refference" HeaderText="Refference" ItemStyle-Width="100" /><asp:BoundField DataField="PayType" HeaderText="PayType" ItemStyle-Width="100" /><asp:BoundField DataField="ChequeNumber" HeaderText="ChequeNumber" ItemStyle-Width="100" /><asp:BoundField DataField="TotalAmount" HeaderText="TotalAmount" ItemStyle-Width="100" /><asp:BoundField DataField="OrderAmount" HeaderText="OrderAmount" ItemStyle-Width="100" /><asp:BoundField DataField="InvoiceDate" HeaderText="InvoiceDate" ItemStyle-Width="100" /> </Columns>
+                            </asp:GridView>
+                        </div>
+                    </form>

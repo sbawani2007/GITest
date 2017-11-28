@@ -1,0 +1,14 @@
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\bin\Debug\ERP.Manager.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\bin\Debug\ERP.Manager.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\bin\Debug\ERP.BLL.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\bin\Debug\ERP.BOL.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\bin\Debug\ERP.DAL.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\bin\Debug\GenericFunctions.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\bin\Debug\MySql.Data.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\bin\Debug\ERP.BLL.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\bin\Debug\ERP.BOL.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\bin\Debug\ERP.DAL.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\bin\Debug\GenericFunctions.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\obj\Debug\ERP.Manager.csprojResolveAssemblyReference.cache
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\obj\Debug\ERP.Manager.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.Manager\obj\Debug\ERP.Manager.pdb

@@ -1,0 +1,37 @@
+<form id="form1" runat="server">
+                                <div>
+                                    <table><tr>
+                            <td>CustomerID:</td>
+                            <td><asp:TextBox ID="txtCustomerID" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>EmployeeID:</td>
+                            <td><asp:TextBox ID="txtEmployeeID" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>OrderDate:</td>
+                            <td><asp:TextBox ID="txtOrderDate" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>RequiredDate:</td>
+                            <td><asp:TextBox ID="txtRequiredDate" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>ShipName:</td>
+                            <td><asp:TextBox ID="txtShipName" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>ShipAddress:</td>
+                            <td><asp:TextBox ID="txtShipAddress" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>ShipCity:</td>
+                            <td><asp:TextBox ID="txtShipCity" runat="server"></asp:TextBox></td>
+                            </tr><tr>
+                            <td>ShipCountry:</td>
+                            <td><asp:TextBox ID="txtShipCountry" runat="server"></asp:TextBox></td>
+                            </tr> <tr>
+                                    <td></td>
+                                    <td>
+                                        <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" /></td>
+                                </tr></table>
+                                </div><div>
+            <asp:GridView ID="gvSalesorders" runat="server" AutoGenerateColumns="false" DataKeyNames="SalesOrderID">
+                <Columns><asp:BoundField DataField="SalesOrderID" HeaderText="SalesOrderID" ItemStyle-Width="100" /><asp:BoundField DataField="CustomerID" HeaderText="CustomerID" ItemStyle-Width="100" /><asp:BoundField DataField="EmployeeID" HeaderText="EmployeeID" ItemStyle-Width="100" /><asp:BoundField DataField="OrderDate" HeaderText="OrderDate" ItemStyle-Width="100" /><asp:BoundField DataField="RequiredDate" HeaderText="RequiredDate" ItemStyle-Width="100" /><asp:BoundField DataField="ShipName" HeaderText="ShipName" ItemStyle-Width="100" /><asp:BoundField DataField="ShipAddress" HeaderText="ShipAddress" ItemStyle-Width="100" /><asp:BoundField DataField="ShipCity" HeaderText="ShipCity" ItemStyle-Width="100" /><asp:BoundField DataField="ShipCountry" HeaderText="ShipCountry" ItemStyle-Width="100" /> </Columns>
+                            </asp:GridView>
+                        </div>
+                    </form>

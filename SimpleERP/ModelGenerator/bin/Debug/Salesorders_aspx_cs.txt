@@ -1,0 +1,40 @@
+ #region Properties and variables
+        SalesordersBOL objSalesordersBOL = new SalesordersBOL();
+       SalesordersManager objSalesordersManager = new SalesordersManager();
+        #endregion
+#region Methods and Events
+                        protected void Page_Load(object sender, EventArgs e)
+                        {                            
+                            if (!Page.IsPostBack)
+                                LoadData();
+                        } public void LoadData()
+                            {
+                                gvSalesorders.DataSource = objSalesordersManager.Select(new SalesordersBOL());
+                                gvSalesorders.DataBind();
+                            }public void GetData()
+                                {          objSalesordersBOL.CustomerID = Convert.ToString( txtCustomerID.Text);
+objSalesordersBOL.EmployeeID = Convert.ToInt32( txtEmployeeID.Text);
+objSalesordersBOL.OrderDate = Convert.ToString( txtOrderDate.Text);
+objSalesordersBOL.RequiredDate = Convert.ToString( txtRequiredDate.Text);
+objSalesordersBOL.ShipName = Convert.ToString( txtShipName.Text);
+objSalesordersBOL.ShipAddress = Convert.ToString( txtShipAddress.Text);
+objSalesordersBOL.ShipCity = Convert.ToString( txtShipCity.Text);
+objSalesordersBOL.ShipCountry = Convert.ToString( txtShipCountry.Text);
+}
+                        public void SetData()
+                        {txtCustomerID.Text = Convert.ToString( objSalesordersBOL.CustomerID);
+txtEmployeeID.Text = Convert.ToString( objSalesordersBOL.EmployeeID);
+txtOrderDate.Text = Convert.ToString( objSalesordersBOL.OrderDate);
+txtRequiredDate.Text = Convert.ToString( objSalesordersBOL.RequiredDate);
+txtShipName.Text = Convert.ToString( objSalesordersBOL.ShipName);
+txtShipAddress.Text = Convert.ToString( objSalesordersBOL.ShipAddress);
+txtShipCity.Text = Convert.ToString( objSalesordersBOL.ShipCity);
+txtShipCountry.Text = Convert.ToString( objSalesordersBOL.ShipCountry);
+}
+                            protected void btnSubmit_Click(object sender, EventArgs e)
+                            {
+                                GetData();
+                                objSalesordersManager.Insert(objSalesordersBOL);
+                                LoadData();
+                            }
+#endregion

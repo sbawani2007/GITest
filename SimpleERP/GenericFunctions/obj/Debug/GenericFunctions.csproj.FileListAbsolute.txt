@@ -1,0 +1,4 @@
+E:\Contour\Learning\projects\SimpleERP\GenericFunctions\bin\Debug\GenericFunctions.dll
+E:\Contour\Learning\projects\SimpleERP\GenericFunctions\bin\Debug\GenericFunctions.pdb
+E:\Contour\Learning\projects\SimpleERP\GenericFunctions\obj\Debug\GenericFunctions.dll
+E:\Contour\Learning\projects\SimpleERP\GenericFunctions\obj\Debug\GenericFunctions.pdb

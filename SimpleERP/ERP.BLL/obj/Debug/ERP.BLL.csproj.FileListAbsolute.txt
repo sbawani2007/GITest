@@ -1,0 +1,12 @@
+E:\Contour\Learning\projects\SimpleERP\ERP.BLL\bin\Debug\ERP.BLL.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.BLL\bin\Debug\ERP.BLL.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.BLL\bin\Debug\ERP.BOL.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.BLL\bin\Debug\ERP.DAL.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.BLL\bin\Debug\GenericFunctions.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.BLL\bin\Debug\MySql.Data.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.BLL\bin\Debug\ERP.BOL.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.BLL\bin\Debug\ERP.DAL.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.BLL\bin\Debug\GenericFunctions.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.BLL\obj\Debug\ERP.BLL.csprojResolveAssemblyReference.cache
+E:\Contour\Learning\projects\SimpleERP\ERP.BLL\obj\Debug\ERP.BLL.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.BLL\obj\Debug\ERP.BLL.pdb

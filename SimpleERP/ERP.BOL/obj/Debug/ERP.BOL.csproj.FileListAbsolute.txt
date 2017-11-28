@@ -1,0 +1,7 @@
+E:\Contour\Learning\projects\SimpleERP\ERP.BOL\bin\Debug\ERP.BOL.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.BOL\bin\Debug\ERP.BOL.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.BOL\bin\Debug\GenericFunctions.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.BOL\bin\Debug\GenericFunctions.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.BOL\obj\Debug\ERP.BOL.csprojResolveAssemblyReference.cache
+E:\Contour\Learning\projects\SimpleERP\ERP.BOL\obj\Debug\ERP.BOL.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.BOL\obj\Debug\ERP.BOL.pdb

@@ -1,0 +1,42 @@
+ #region Properties and variables
+        InvoicesBOL objInvoicesBOL = new InvoicesBOL();
+       InvoicesManager objInvoicesManager = new InvoicesManager();
+        #endregion
+#region Methods and Events
+                        protected void Page_Load(object sender, EventArgs e)
+                        {                            
+                            if (!Page.IsPostBack)
+                                LoadData();
+                        } public void LoadData()
+                            {
+                                gvInvoices.DataSource = objInvoicesManager.Select(new InvoicesBOL());
+                                gvInvoices.DataBind();
+                            }public void GetData()
+                                {          objInvoicesBOL.InvoiceNumber = Convert.ToString( txtInvoiceNumber.Text);
+objInvoicesBOL.InvoiceType = Convert.ToInt32( txtInvoiceType.Text);
+objInvoicesBOL.OrderID = Convert.ToInt32( txtOrderID.Text);
+objInvoicesBOL.Refference = Convert.ToString( txtRefference.Text);
+objInvoicesBOL.PayType = Convert.ToInt32( txtPayType.Text);
+objInvoicesBOL.ChequeNumber = Convert.ToString( txtChequeNumber.Text);
+objInvoicesBOL.TotalAmount = Convert.ToDouble( txtTotalAmount.Text);
+objInvoicesBOL.OrderAmount = Convert.ToDouble( txtOrderAmount.Text);
+objInvoicesBOL.InvoiceDate = Convert.ToString( txtInvoiceDate.Text);
+}
+                        public void SetData()
+                        {txtInvoiceNumber.Text = Convert.ToString( objInvoicesBOL.InvoiceNumber);
+txtInvoiceType.Text = Convert.ToString( objInvoicesBOL.InvoiceType);
+txtOrderID.Text = Convert.ToString( objInvoicesBOL.OrderID);
+txtRefference.Text = Convert.ToString( objInvoicesBOL.Refference);
+txtPayType.Text = Convert.ToString( objInvoicesBOL.PayType);
+txtChequeNumber.Text = Convert.ToString( objInvoicesBOL.ChequeNumber);
+txtTotalAmount.Text = Convert.ToString( objInvoicesBOL.TotalAmount);
+txtOrderAmount.Text = Convert.ToString( objInvoicesBOL.OrderAmount);
+txtInvoiceDate.Text = Convert.ToString( objInvoicesBOL.InvoiceDate);
+}
+                            protected void btnSubmit_Click(object sender, EventArgs e)
+                            {
+                                GetData();
+                                objInvoicesManager.Insert(objInvoicesBOL);
+                                LoadData();
+                            }
+#endregion

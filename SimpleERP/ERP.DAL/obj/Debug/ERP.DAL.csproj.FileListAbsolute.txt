@@ -1,0 +1,6 @@
+E:\Contour\Learning\projects\SimpleERP\ERP.DAL\bin\Debug\ERP.DAL.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.DAL\bin\Debug\ERP.DAL.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.DAL\bin\Debug\MySql.Data.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.DAL\obj\Debug\ERP.DAL.dll
+E:\Contour\Learning\projects\SimpleERP\ERP.DAL\obj\Debug\ERP.DAL.pdb
+E:\Contour\Learning\projects\SimpleERP\ERP.DAL\obj\Debug\ERP.DAL.csprojResolveAssemblyReference.cache

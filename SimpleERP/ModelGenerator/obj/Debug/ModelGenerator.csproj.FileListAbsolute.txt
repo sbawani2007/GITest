@@ -1,0 +1,11 @@
+E:\Contour\Learning\projects\SimpleERP\ModelGenerator\bin\Debug\ModelGenerator.exe
+E:\Contour\Learning\projects\SimpleERP\ModelGenerator\bin\Debug\ModelGenerator.pdb
+E:\Contour\Learning\projects\SimpleERP\ModelGenerator\bin\Debug\ERP.DAL.dll
+E:\Contour\Learning\projects\SimpleERP\ModelGenerator\bin\Debug\MySql.Data.dll
+E:\Contour\Learning\projects\SimpleERP\ModelGenerator\bin\Debug\ERP.DAL.pdb
+E:\Contour\Learning\projects\SimpleERP\ModelGenerator\obj\Debug\ModelGenerator.csprojResolveAssemblyReference.cache
+E:\Contour\Learning\projects\SimpleERP\ModelGenerator\obj\Debug\ModelGenerator.Form1.resources
+E:\Contour\Learning\projects\SimpleERP\ModelGenerator\obj\Debug\ModelGenerator.Properties.Resources.resources
+E:\Contour\Learning\projects\SimpleERP\ModelGenerator\obj\Debug\ModelGenerator.csproj.GenerateResource.Cache
+E:\Contour\Learning\projects\SimpleERP\ModelGenerator\obj\Debug\ModelGenerator.exe
+E:\Contour\Learning\projects\SimpleERP\ModelGenerator\obj\Debug\ModelGenerator.pdb
